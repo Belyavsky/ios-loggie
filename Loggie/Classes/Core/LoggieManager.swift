@@ -89,7 +89,7 @@ public final class LoggieManager: NSObject, LogsDataSourceDelegate {
 
         let navigationController = UINavigationController(rootViewController: vc)
         navigationController.navigationBar.isTranslucent = false
-        navigationController.navigationBar.backgroundColor = .white
+        navigationController.navigationBar.backgroundColor = .black
 
         return navigationController
     }
