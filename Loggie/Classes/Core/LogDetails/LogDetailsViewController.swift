@@ -56,6 +56,7 @@ class LogDetailsViewController: UIViewController {
     private func setupOptionsBar() {
         optionsBar.tintColor = navigationController?.navigationBar.tintColor
         optionsBar.barTintColor = navigationController?.navigationBar.barTintColor
+        optionsBar.backgroundColor = .black
     }
 
     private func setupShareButton() {
